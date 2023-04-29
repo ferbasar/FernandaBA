@@ -1,0 +1,28 @@
+form{
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    margin: auto;
+    width: 580px;
+    background: navajowhite;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+input,textarea{
+    outline: none;
+    border: solid 1px #ccc;
+    width: 500px;
+    padding: 10px;
+    color: bisque;
+}
+input,select{
+    outline: none;
+    border: solid 1px #ccc;
+    color: bisque;
+}
+input.bt{
+    color: blanchedalmond;
+    background: moccasin;
+}

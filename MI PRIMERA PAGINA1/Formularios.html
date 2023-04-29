@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head> 
+<body>
+    <body bgcolor="#FFF5EE">
+        <ul class="menu">
+            <li><a href="Paginalprincipal.html" target="_blank">PAGINA PRINCIPAL</a></li>
+            <li><a href="Textos.html" target="_blank">TEXTOS</a></li>
+            <li><a href="Tablas.html" target="_blank">TABLAS</a></li>
+            <li><a href="Formularios.html" target="_blank">FORMULARIOS</a></li>
+        </ul>
+    <center>
+        <h1>FORMULARIOS</h1>
+        <h2>USO DE FORMULARIOS</h2>
+        <p>Los formularios en las paginas web se ocupan principalmente para la obtencion de informacion de los usuarios para almacenarlos en una base de datos y llevar un orden en cuento a ello se refiere.</p>
+        <p>Cada sentencia en el siguiente formulario se ocupa para un tipo de registro diferente, algunos solo permiten un tipo de tecto en especifico y otras se ocupan para uno o mas registros en una sola sentencia.</p>
+    </center>
+<form>
+    <fieldset>
+        <legend>FORMULARIO 1</legend>
+        <br>
+        <label>NOMBRE:</label>
+        <input type="text" placeholder="Nombre"><br><br>
+        <label>CONTRASEÑA:</label>
+        <input type="password" placeholder="CONTRASEÑA"><br><br>
+        <label>CURSO:</label>
+        <input type="radio" name="Curso" value="PaginasWeb">CREACION DE PAGINAS WEB
+        <input type="radio" name="Curso" value="BD">BASE DE datos
+        <input type="radio" name="Curso" value="Aplicaciones">DESARROLLO DE APLICACIONES <br><br>
+        <label>LENGUAJES DEL CURSO:</label><br>
+        <input type="checkbox" name="Lenguajes" value="html">Html <br>
+        <input type="checkbox" name="Lenguajes" value="css">Css <br>
+        <input type="checkbox" name="Lenguajes" value="java">Java <br>
+        <input type="checkbox" name="Lenguajes" value="php">Php <br>
+        <input type="checkbox" name="Lenguajes" value="mysql">Mysql <br><br>
+        <label>GRUPO:</label>
+        <select>
+            <option>Grupo 1</option>
+            <option>Grupo 2</option>
+            <option>Grupo 3</option>
+            <option>No tengo grupo</option>
+        </select>
+        <br><br>
+        <label>COMENTARIO:</label><br>
+        <textarea name="Comentario" rows="10" cols="70" placeholder="Escribe tu comentario"></textarea><br><br>
+        <input type="button" class="bt" value="Enviar datos">
+        <input type="reset" class="bt" value="Borrar datos">
+        <input type="file" class="bt" value="Examinar"> <br><br>
+
+        </fieldset>
+</form>
+</body>
+</html>
